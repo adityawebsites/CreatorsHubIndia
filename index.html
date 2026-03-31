@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creators Hub India • Discord Server</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+        
+        :root {
+            --primary: #00d4ff;
+        }
+        
+        * { transition: all 0.2s ease; }
+        
+        .tail-container * {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .logo-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .hero-bg {
+            background: linear-gradient(92deg, #0a0a0a 0%, #1a1a2e 100%);
+        }
+        
+        .section-header {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        
+        .discord-button {
+            background: linear-gradient(90deg, #5865F2, #7289DA);
+            box-shadow: 0 10px 15px -3px rgb(88 101 242);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgb(0 212 255 / 0.25);
+        }
+    </style>
+</head>
+<body class="tail-container bg-[#0a0a0a] text-white">
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-lg border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-gradient-to-br from-[#00d4ff] to-[#5865F2] rounded-2xl flex items-center justify-center text-2xl font-bold">🎥</div>
+                <h1 class="logo-font text-3xl tracking-tighter">Creators Hub India</h1>
+            </div>
+
+            <div class="hidden md:flex items-center gap-10 text-lg font-medium">
+                <a href="#things" class="hover:text-[#00d4ff]">Things We Do</a>
+                <a href="#members" class="hover:text-[#00d4ff]">Our Members</a>
+                <a href="#testimonials" class="hover:text-[#00d4ff]">Member Stories</a>
+            </div>
+
+            <a href="https://discord.gg/MhtM2DYE" target="_blank"
+               class="discord-button px-8 py-3.5 rounded-2xl font-semibold text-lg flex items-center gap-3 hover:scale-105">
+                <i class="fa-brands fa-discord text-2xl"></i>
+                JOIN DISCORD
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero-bg min-h-screen flex items-center relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            
+            <div class="pt-12 md:pt-0">
+                <div class="inline-flex items-center gap-2 bg-white/10 px-6 py-3 rounded-3xl mb-6 border border-white/20">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                    GROWING STRONG • 100 MEMBERS
+                </div>
+                
+                <h1 class="text-7xl md:text-8xl font-bold leading-none logo-font tracking-tighter mb-6">
+                    CREATORS HUB<br>INDIA
+                </h1>
+                
+                <p class="text-3xl md:text-4xl text-white/90 font-light mb-8">
+                    Join India's fastest growing community<br>
+                    for <span class="text-[#00d4ff]">filmmakers, content creators & artists</span>
+                </p>
+                
+                <a href="https://discord.gg/MhtM2DYE" target="_blank"
+                   class="discord-button inline-flex px-12 py-6 rounded-3xl text-2xl font-semibold items-center gap-4 hover:scale-105">
+                    <i class="fa-brands fa-discord text-3xl"></i>
+                    JOIN THE HUB NOW
+                </a>
+                
+                <p class="mt-12 text-white/70">
+                    Built by <span class="text-[#00d4ff] font-medium">Aditya</span> • Currently 100 members and growing fast
+                </p>
+            </div>
+
+            <!-- Right Side - Clean Mock (LIVE tab removed) -->
+            <div class="relative hidden md:block">
+                <div class="bg-[#1a1a2e] rounded-3xl shadow-2xl border border-white/10 p-8">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-12 h-12 bg-gradient-to-br from-[#00d4ff] to-[#5865F2] rounded-2xl flex items-center justify-center text-4xl">🇮🇳</div>
+                        <div>
+                            <p class="font-semibold text-2xl">Creators Hub India</p>
+                            <p class="text-emerald-400 flex items-center gap-2 text-sm">
+                                <i class="fa-solid fa-circle text-xs"></i> 100 members • Growing Daily
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-3 text-sm bg-[#161622] rounded-2xl p-6">
+                        <div class="flex items-center gap-3 text-white/70"><i class="fa-solid fa-hashtag"></i> general-chat</div>
+                        <div class="flex items-center gap-3 text-white/70"><i class="fa-solid fa-hashtag"></i> film-discussions</div>
+                        <div class="flex items-center gap-3 text-white/70"><i class="fa-solid fa-hashtag"></i> portfolio-reviews</div>
+                        <div class="flex items-center gap-3 text-[#00d4ff]"><i class="fa-solid fa-hashtag"></i> collabs-open</div>
+                        <div class="flex items-center gap-3 text-white/70"><i class="fa-solid fa-hashtag"></i> artist-spotlight</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="py-24 bg-[#111113]">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-center section-header text-6xl font-semibold mb-16">Member Stories</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-[#1a1a2e] rounded-3xl p-8">
+                    <p class="text-lg leading-relaxed mb-8">"Finally a community where my work gets real feedback. Already feeling the growth!"</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-orange-400 rounded-2xl flex items-center justify-center text-2xl">🎬</div>
+                        <div>
+                            <p class="font-semibold">Yakshu</p>
+                            <p class="text-white/60 text-sm">Filmmaker</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-[#1a1a2e] rounded-3xl p-8">
+                    <p class="text-lg leading-relaxed mb-8">"Best decision I made this year. The networking and support here is next level."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-blue-400 rounded-2xl flex items-center justify-center text-2xl">📸</div>
+                        <div>
+                            <p class="font-semibold">Aditya</p>
+                            <p class="text-white/60 text-sm">Founder & Content Creator</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-[#1a1a2e] rounded-3xl p-8">
+                    <p class="text-lg leading-relaxed mb-8">"Found amazing collaborators within the first week. Highly recommended!"</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-purple-400 rounded-2xl flex items-center justify-center text-2xl">🎨</div>
+                        <div>
+                            <p class="font-semibold">Shubham</p>
+                            <p class="text-white/60 text-sm">Motion Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOP MEMBERS -->
+    <section id="members" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-center section-header text-6xl font-semibold mb-4">Our Active Members</h2>
+            <p class="text-center text-white/70 text-xl mb-16">Helping grow the community every day</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+                <div class="text-center">
+                    <div class="mx-auto w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-500 rounded-3xl flex items-center justify-center text-6xl mb-4">👑</div>
+                    <p class="font-bold">Yakshu</p>
+                    <p class="text-xs text-[#00d4ff]">Active Member</p>
+                </div>
+                <div class="text-center">
+                    <div class="mx-auto w-24 h-24 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-3xl flex items-center justify-center text-6xl mb-4">🎥</div>
+                    <p class="font-bold">Aditya</p>
+                    <p class="text-xs text-[#00d4ff]">Founder</p>
+                </div>
+                <div class="text-center">
+                    <div class="mx-auto w-24 h-24 bg-gradient-to-br from-amber-400 to-orange-500 rounded-3xl flex items-center justify-center text-6xl mb-4">📸</div>
+                    <p class="font-bold">Shubham</p>
+                    <p class="text-xs text-white/60">Content Creator</p>
+                </div>
+                <div class="text-center">
+                    <div class="mx-auto w-24 h-24 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-3xl flex items-center justify-center text-6xl mb-4">🎬</div>
+                    <p class="font-bold">Adhyansh</p>
+                    <p class="text-xs text-white/60">Filmmaker</p>
+                </div>
+                <div class="text-center">
+                    <div class="mx-auto w-24 h-24 bg-gradient-to-br from-pink-400 to-rose-400 rounded-3xl flex items-center justify-center text-6xl mb-4">🎨</div>
+                    <p class="font-bold">Eva</p>
+                    <p class="text-xs text-white/60">Artist</p>
+                </div>
+                <div class="text-center">
+                    <div class="mx-auto w-24 h-24 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-3xl flex items-center justify-center text-6xl mb-4">📝</div>
+                    <p class="font-bold">Shreyash</p>
+                    <p class="text-xs text-white/60">Screenwriter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-28 text-center bg-gradient-to-b from-[#111113] to-[#0a0a0a]">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-6xl font-bold logo-font tracking-tighter mb-6">Be one of the first 500 members</h2>
+            <p class="text-2xl text-white/80 mb-10">Right now we are just 100 strong and growing fast.<br>Join before we get bigger!</p>
+            
+            <a href="https://discord.gg/MhtM2DYE" target="_blank"
+               class="discord-button inline-flex px-16 py-8 rounded-3xl text-4xl font-semibold items-center gap-6 hover:scale-105">
+                <i class="fa-brands fa-discord text-5xl"></i>
+                JOIN CREATORS HUB INDIA
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-black py-12 text-center text-white/50 text-sm">
+        <p>Made with ❤️ by Aditya for Indian Creators</p>
+    </footer>
+
+</body>
+</html>
